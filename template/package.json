@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "nom",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run -s dev",
+    "build": "preact build",
+    "serve": "preact build && preact serve",
+    "dev": "preact watch",
+    "lint": "eslint src"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 100
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "if-env": "^1.0.0",
+    "preact-cli": "^2.0.0",
+    "prettier": "^1.13.5"
+  },
+  "dependencies": {
+    "preact": "^8.2.1",
+    "preact-compat": "^3.17.0"
+  }
+}
